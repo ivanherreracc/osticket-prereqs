@@ -7,10 +7,6 @@
 This walkthrough descripts how to install osTicket system through azure virtual machine.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Install osTicket with Prerequisites](https://www.youtube.com)
-
 <h2>Environments and Technologies Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
@@ -35,33 +31,11 @@ This walkthrough descripts how to install osTicket system through azure virtual 
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.imgur.com/zQoGcn0.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Open your Azure portal and create virtual machine.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/QgeG6RB.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-Name your Resource group RG-osTicket, next below name your machine VM-osTicket, and for operating system choose Windows 10 as seen in picture.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/1Ym8NWu.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-Scrolling down now you can Select a machine size of atleast 2vcpu's with at least 8 vram to support role of VM. Also fill out Admin. account info as you would like to personalise for self. (remember your VM admin info). Then below under licensing click I Confirm. and Create VM.
-</p>
-<br />
 
 <p>
 <img src="https://i.imgur.com/FHJAcRp.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
-Once VM is finish installing thru Azure portal, open VM and connect by copying IP address under connect Tab.
-</p>
+On azure get IP address by connecting VM.
 <br />
 
 <p>
